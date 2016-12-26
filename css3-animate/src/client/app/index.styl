@@ -1,0 +1,53 @@
+
+.movebox{
+  width:50px;
+  height:50px;
+  position: relative;
+  background:#f60;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  transition-timing-function: linear;
+}
+
+.movebox2 {
+  width:100px;
+  height:100px;
+  border:1px solid #5d5d5d;
+  background: #f60;
+  overflow:hidden;
+  margin:10px;
+  -webkit-animation-duration:1s ;
+  -o-animation-duration:1s ;
+  animation-duration:1s ;
+}
+@keyframes mymove{
+  0%{
+    -webkit-transform: translate(0px,0px);
+    -moz-transform: translate(0px,0px);
+    -ms-transform: translate(0px,0px);
+    transform: translate(0px,0px);
+  }
+  100%{
+    -webkit-transform: translate(100px,100px);
+    -moz-transform: translate(100px,100px);
+    -ms-transform: translate(100px,100px);
+    transform: translate(100px,100px);
+  }
+}
+@-webkit-keyframes mymove{
+  0%{
+    -webkit-transform: translate(0px,0px);
+    -moz-transform: translate(0px,0px);
+    -ms-transform: translate(0px,0px);
+    transform: translate(0px,0px);
+  }
+  100%{
+    -webkit-transform: translate(100px,100px);
+    -moz-transform: translate(100px,100px);
+    -ms-transform: translate(100px,100px);
+    transform: translate(100px,100px);
+  }
+}
