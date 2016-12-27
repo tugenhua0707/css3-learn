@@ -3,12 +3,10 @@
 ### 1. transitionend 事件执行次数。
 它有一个属性 transition-property <br/>可以过渡多个属性值，比如宽度和高度，及旋转操作等，但是transitionend的触发条件是当某个属性值发生改变的时候就会触发，因此如果有多个属性的话，就会触发多次回调<br/>
 事件，比如如下的宽度和高度，及旋转操作，它就会触发多次回调监听事件；<br/>
-<pre>
-  <div class="movebox" id="J_movebox"></div>
-  <div class="">
-    <a href="javascript:void(0)" id="J_movingbtn">&nbsp;&nbsp;运动&nbsp;&nbsp; </a> 
-  </div>
-</pre>
+    <div class="movebox" id="J_movebox"></div>
+    <div class="">
+      <a href="javascript:void(0)" id="J_movingbtn">&nbsp;&nbsp;运动&nbsp;&nbsp; </a> 
+    </div>
 <pre>
   .movebox{
     width:50px;
@@ -143,12 +141,10 @@
 ### 2. animationend事件执行次数
 #### 不同于transitionend事件,animationend只会在动画完成后执行一次：
 #### animationend的事件只有两种形式：animationend和WebkitAnimationEnd
-<pre>
-  <div class="movebox2" id="J_movebox2"></div>
-  <div class="">
-    <a href="javascript:void(0)" id="J_movingbtn2">&nbsp;&nbsp;运动&nbsp;&nbsp; </a> 
-  </div>
-</pre>
+    <div class="movebox2" id="J_movebox2"></div>
+    <div class="">
+      <a href="javascript:void(0)" id="J_movingbtn2">&nbsp;&nbsp;运动&nbsp;&nbsp; </a> 
+    </div>
 <pre>
   .movebox2 {
     width:100px;
