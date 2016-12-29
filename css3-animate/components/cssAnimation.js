@@ -8,7 +8,7 @@ const prefixes = ['-webkit-', '-moz-', '-o-', 'ms-', ''];
 function getStyleProperty(node, name) {
   const style = window.getComputedStyle(node);
   // 获取所有的style
-  console.log(style);
+  // console.log(style);
   let ret = '';
   for (let i = 0; i < prefixes.length; i++) {
   	ret = style.getPropertyValue(prefixes[i] + name);
