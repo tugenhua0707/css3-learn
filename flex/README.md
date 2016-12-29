@@ -4,16 +4,14 @@
   你对某件事感兴趣，那么你一定需要和它发生关系，否则的话你们就没有关系。因此flex也是一样的，他们两的关系就是父容器与子容器之间布局的关系。
 </p>
 比如如下代码：
-<pre>
-<main>
-  <div class="col">
-    <h2>CSS, Or:</h2>
-  </div>
-  <div class="col2">
-    <h2>How I Learned to Stop Worrying and Love the Flexbox.</h2>
-  </div>
-</main>
-</pre>
+    <main>
+      <div class="col">
+        <h2>CSS, Or:</h2>
+      </div>
+      <div class="col2">
+        <h2>How I Learned to Stop Worrying and Love the Flexbox.</h2>
+      </div>
+    </main>
 <p>
   main 是父容器，给它定义固定宽度是800px，display: flex; 代码如下：
 </p>
