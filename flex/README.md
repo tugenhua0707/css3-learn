@@ -4,6 +4,7 @@
   你对某件事感兴趣，那么你一定需要和它发生关系，否则的话你们就没有关系。因此flex也是一样的，他们两的关系就是父容器与子容器之间布局的关系。
 </p>
 比如如下代码：
+<p>
     <main>
       <div class="col">
         <h2>CSS, Or:</h2>
@@ -12,6 +13,7 @@
         <h2>How I Learned to Stop Worrying and Love the Flexbox.</h2>
       </div>
     </main>
+</p>
 <p>
   main 是父容器，给它定义固定宽度是800px，display: flex; 代码如下：
 </p>
@@ -73,7 +75,7 @@
   如果子元素 没有设置 flex-grow的时候，那么默认剩余空间为0了；
 </p>
 #### 浏览器支持程度如下：
-<img src='https://raw.githubusercontent.com/tugenhua0707/css3-learn/flex/master/flex-grow.png' />
+<img src='https://github.com/tugenhua0707/css3-learn/tree/master/flex/flex-grow.png' />
 
 ## 理解 flex-shrink
 <h3>含义是：设置或检索弹性盒的收缩比率, 更准确的说 根据弹性盒子元素所设置的收缩因子作为比率来收缩空间。</h3>
@@ -97,7 +99,7 @@
   因此 第一个li的宽度为 160px，第二个宽度为 160px；第三个子元素li的宽度为 80px； 
 </p>
 <p>浏览器支持程度如下：</p>
-<img src='https://raw.githubusercontent.com/tugenhua0707/css3-learn/flex/master/flex-shrink.png' />
+<img src='https://github.com/tugenhua0707/css3-learn/tree/master/flex/flex-shrink.png' />
 
 ## 理解 flex-basis
 <p>这个属性的作用是width的替代品，如果子容器设置了 flex-basis或者width的话，那么在分配空间之前，他们会先跟容器预约这么多空间，
@@ -115,4 +117,4 @@
     .flex li:nth-child(2) {background: blue;}
     .flex li:nth-child(3) {flex-shrink: 3; background: #ccc}
 #### 浏览器支持程度如下：
-<img src='https://raw.githubusercontent.com/tugenhua0707/css3-learn/flex/master/flex-basis.png' />
+<img src='https://github.com/tugenhua0707/css3-learn/tree/master/flex/flex-basis.png' />
