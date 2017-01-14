@@ -11,16 +11,33 @@
         <link rel="shortcut icon" href="/favicon.ico">
     </head>
     <style>
-      .flex {display: flex; width: 400px; list-style: none;}
+      .flex {display: flex; width: 400px; list-style: none; overflow: hidden;}
       .flex li {width:200px;}
       .flex li:nth-child(1) {background: red;}
       .flex li:nth-child(2) {background: blue;}
       .flex li:nth-child(3) {flex-shrink: 3; background: #ccc}
     </style>
     <body>
+      <h2>第一种情况</h2>
       <ul class="flex">
-        <li>aadsddsasdasdsdsddsdasds</li>
+        <li>a</li>
         <li>b</li>
+        <li>c</li>
+      </ul>
+
+      <!--  第二种情况 -->
+      <h2>第二种情况</h2>
+      <ul class="flex">
+        <li>aaaaaaaaaaaaaaaaaaaaaaa</li>
+        <li>bbbbbbbbbbbbbbbbbbbbbbb</li>
+        <li>c</li>
+      </ul>
+
+      <!--  第三种情况 -->
+      <h2>第三种情况</h2>
+      <ul class="flex">
+        <li>吾问无为谓吾问无为谓哇哇哇哇哇哇哇哇哇哇哇哇</li>
+        <li>吾问无为谓吾问无为谓哇哇哇哇哇哇哇哇</li>
         <li>c</li>
       </ul>
     </body>
